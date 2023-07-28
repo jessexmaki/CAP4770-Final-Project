@@ -1,3 +1,5 @@
-## Pre-Trained deep learning image segmentation: Are simple classicals methods still relevant for clinicall MRI?
-Members: Jesse Maki, Eddy Rosales, Jonthan Williams
+# Comparative Analysis of Brain MRI Segmentation Software (FSL and Synthseg)
+## Metrics Evaluation and Age-Volume Prediction using Machine Learning
+---
+**Contributers: Jonathan Williams, Eddy Rosales, and Jesse Maki**
 

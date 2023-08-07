@@ -1,7 +1,7 @@
 import pandas as pd
 
 # vars
-metadataCsvFile = 'synthseg_csv/synthseg_csv/FTHP_metadata.csv'
+metadataCsvFile = 'synthseg_csv/synthseg_csv/FTHP_metadata.csv' # Update path if necessary
 metadata_df = pd.read_csv(metadataCsvFile)
 tableDataList = []
 
@@ -11,7 +11,7 @@ for index, row in metadata_df.iterrows():
     manufacturer = row['manufacturer']
     model = row['model']
 
-    csvFile = 'synthseg_csv/synthseg_csv/{}_synthseg_vol.csv'.format(scanId)
+    csvFile = 'synthseg_csv/synthseg_csv/{}_synthseg_vol.csv'.format(scanId) # Update path if necessary
     
     # Check if the file exists
     try:

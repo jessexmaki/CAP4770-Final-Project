@@ -3,14 +3,14 @@ import pandas as pd
 # vars
 fileMetadata = {}
 tableDataList = []
-metadataCsvFile = 'fsl/FSL_csv/FSL_csv/FTHP_metadata.csv'
+metadataCsvFile = 'fsl/FSL_csv/FSL_csv/FTHP_metadata.csv' # Update path as necessary to location of metadat file
 
 metadata_df = pd.read_csv(metadataCsvFile)
 numRowsMetaData = len(metadata_df)
 
 
 for rowNum in range (numRowsMetaData):
-    csvFile = 'fsl/FSL_csv/FSL_csv/fast_{}_seg.csv'.format(rowNum)
+    csvFile = 'fsl/FSL_csv/FSL_csv/fast_{}_seg.csv'.format(rowNum) # Update path as necessary to location of metadat file
 
     with open(csvFile, 'r') as file:
         tableData = []

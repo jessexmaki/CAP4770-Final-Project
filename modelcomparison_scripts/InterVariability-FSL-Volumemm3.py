@@ -16,9 +16,9 @@ sns.set(style='whitegrid')
 
 sns.boxplot(x='Model', y='Volume_mm3', data=concatenated_df,sym='')
 
-plt.title('Inter-Model Variability - Volume_mm3')
+plt.title('Inter-Model Variability - Total Segmentation Volume')
 plt.xlabel('Model')
-plt.ylabel('Volume_mm3')
+plt.ylabel('Total Segmentation Volume')
 
 # Set the y-axis to a logarithmic scale
 plt.yscale('log')  
